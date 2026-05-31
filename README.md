@@ -1,25 +1,28 @@
 # heatbox_izena
-保護熱箱法の300㎜角厚さ90㎜の水が封入された試験体内部の挙動を事前に確認するシミュレーションプログラムをpythonでCopilotに作ってもらった。
-# 🔥 Heatbox Simulation (Izena Project)
+# 🔥 保護熱箱シミュレーション（伊是名プロジェクト）
 
-This repository provides a simple and intuitive simulation of heat transfer inside a water-filled heatbox.  
-It visualizes:
+このリポジトリは、水を満たした「保護熱箱」の中で起こる  
+**対流・伝導・熱貫流率（U値）の変化を直感的に理解できるシミュレーション** をまとめたものです。
 
-- Convection (bottom heating)
-- Pure conduction (top heating)
-- U-value changes with water-layer thickness
-- Flow fields (streamlines)
-- Temperature fields (isotherms)
+- 下側加熱 → 対流が発生し、流れが循環する  
+- 上側加熱 → 対流が抑制され、伝導が支配的になる  
+- 水層の厚さによって U値がどう変わるか  
+- 流線（ストリームライン）や等温線（アイソサーム）で可視化  
 
-Designed for beginners, engineers, and anyone curious about heat transfer.
+技術者だけでなく、初めて熱の世界に触れる方にも分かりやすい構成になっています。
 
 ---
 
-## 📘 View the Notebook
+## 📘 ノートブックを見る方法
 
-### 🔸 Static View (nbviewer — always works)
-GitHub sometimes fails to render Jupyter notebooks.  
-Use nbviewer for a stable view:
+GitHub はノートブックを正しく表示できないことがあります。  
+そのため、以下の2つの方法を用意しています。
+
+---
+
+### 🔸 安定して閲覧できる（nbviewer）
+
+GitHub がエラーになる場合でも、こちらなら確実に開けます。
 
 [![View in nbviewer](https://img.shields.io/badge/View%20in-nbviewer-orange)](
 https://nbviewer.org/github/ryojifukagawa-pixel/heatbox_izena/blob/main/Untitled12new.ipynb
@@ -27,9 +30,11 @@ https://nbviewer.org/github/ryojifukagawa-pixel/heatbox_izena/blob/main/Untitled
 
 ---
 
-### 🔹 Interactive Version (Open in Colab)
-Run the simulation interactively in your browser.  
-Adjust thickness, temperature difference, and visualize convection.
+### 🔹 インタラクティブ版（Google Colab）
+
+ブラウザだけで動かせる体験版です。  
+厚さ・温度差・係数をスライダーで動かしながら、  
+対流や伝導の変化をリアルタイムで確認できます。
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](
 https://colab.research.google.com/github/ryojifukagawa-pixel/heatbox_izena/blob/main/Untitled12new.ipynb
@@ -37,58 +42,36 @@ https://colab.research.google.com/github/ryojifukagawa-pixel/heatbox_izena/blob/
 
 ---
 
-## 🧪 Features
+## 🧪 このシミュレーションでできること
 
-- **Bottom heating mode**  
-  → Convection occurs, forming circulating flow patterns.
+- **下側加熱（対流 ON）**  
+  - レイリー数（Ra）  
+  - ヌッセルト数（Nu）  
+  - 流線（ストリームライン）  
+  - U値の変化  
 
-- **Top heating mode**  
-  → Convection is suppressed, conduction dominates.
+- **上側加熱（対流 OFF）**  
+  - 伝導支配の温度分布  
+  - 等温線（アイソサーム）  
 
-- **U-value calculation**  
-  → Shows how heat transfer changes with water-layer thickness.
-
-- **Flow visualization**  
-  → Streamlines for convection.
-
-- **Temperature visualization**  
-  → Isotherms for conduction.
+- **水層の厚さと U値の関係をグラフ化**
 
 ---
 
-## 📦 Files in This Repository
+## 📦 リポジトリ内のファイル
 
-| File | Description |
-|------|-------------|
-| `Untitled12new.ipynb` | Main notebook (English version, GitHub-safe) |
-| `README.md` | This document |
-| (Optional) `colab_version.ipynb` | Interactive version with widgets |
-
----
-
-## 🌍 Background
-
-This project was created to help people understand:
-
-- Why bottom heating creates convection  
-- Why top heating suppresses it  
-- How Rayleigh and Nusselt numbers relate to heat transfer  
-- How U-value depends on water-layer thickness  
-- How visualization helps intuition
-
-It is especially useful for:
-
-- Students  
-- Engineers  
-- Sales teams  
-- Anyone learning thermal engineering  
+| ファイル名 | 説明 |
+|------------|------|
+| `Untitled12new.ipynb` | GitHub 用の英語版ノートブック（安定表示用） |
+| `README.md` | この説明書 |
+| （任意）`colab_version.ipynb` | Colab 用のウィジェット付きインタラクティブ版 |
 
 ---
 
-## 🔤 English–Japanese Glossary (for beginners)
+## 🔤 英語 ↔ 日本語 対照表（初心者向け）
 
-| English | Japanese |
-|--------|----------|
+| 英語 | 日本語 |
+|------|--------|
 | Heatbox | 保護熱箱 |
 | Convection | 対流 |
 | Conduction | 伝導 |
@@ -102,16 +85,21 @@ It is especially useful for:
 
 ---
 
-## 📄 License
+## 🙌 このプロジェクトについて
 
-This project is open for educational and research use.
+このシミュレーションは、  
+**「熱の世界を、誰でも直感的に楽しめるように」**  
+という思いから作られました。
 
----
+- 技術者  
+- 営業の方  
+- 高齢者  
+- 学生  
+- 初めて Python に触れる方  
 
-## 🙌 Acknowledgment
+どなたでも楽しめるように工夫しています。
 
-This project was developed with the goal of making heat transfer intuitive and enjoyable for everyone.  
-Special thanks to all who explore, learn, and share this simulation.
+ 
 ## 🖼️ 説明図（イメージ）
 
 ### 1. 下側加熱（対流が発生する場合）
