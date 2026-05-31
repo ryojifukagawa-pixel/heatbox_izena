@@ -112,3 +112,13 @@ This project is open for educational and research use.
 
 This project was developed with the goal of making heat transfer intuitive and enjoyable for everyone.  
 Special thanks to all who explore, learn, and share this simulation.
+## 🖼️ 説明図（イメージ）
+
+### 1. 下側加熱（対流が発生する場合）
+<img src="https://via.placeholder.com/1" alt="Convection diagram" />
+
+### 2. 上側加熱（対流が抑制される場合）
+<img src="https://via.placeholder.com/1" alt="Conduction diagram" />
+
+### 3. 水層の厚さと U値の関係
+<img src="https://via.placeholder.com/1" alt="U-value vs thickness diagram" />
