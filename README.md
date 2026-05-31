@@ -3,3 +3,6 @@
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](
 https://colab.research.google.com/github/ryojifukagawa-pixel/heatbox_izena/blob/main/Untitled12new.ipynb
 )
+[![View in nbviewer](https://img.shields.io/badge/View%20in-nbviewer-orange)](
+https://nbviewer.org/github/ryojifukagawa-pixel/heatbox_izena/blob/main/Untitled12new.ipynb
+)
