@@ -39,7 +39,6 @@ https://nbviewer.org/github/ryojifukagawa-pixel/heatbox_izena/blob/main/Untitled
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](
 https://colab.research.google.com/github/ryojifukagawa-pixel/heatbox_izena/blob/main/heatbox_nteractive.ipynb
 )
-)
 
 ---
 
