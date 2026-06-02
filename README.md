@@ -37,7 +37,7 @@ https://nbviewer.org/github/ryojifukagawa-pixel/heatbox_izena/blob/main/izena_bo
 対流や伝導の変化をリアルタイムで確認できます。
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](
-https://colab.research.google.com/github.com/ryojifukagawa-pixel/heatbox_izena/blob/main/izena_interactive_version.ipynb
+https://colab.research.google.com/github/ryojifukagawa-pixel/heatbox_izena/blob/main/izena_interactive_version.ipynb
 )
 
 ---
