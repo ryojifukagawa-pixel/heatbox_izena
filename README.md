@@ -101,12 +101,45 @@ https://colab.research.google.com/github/ryojifukagawa-pixel/heatbox_izena/blob/
 
  
 ## 🖼️ 説明図（イメージ）
+---
 
-### 1. 下側加熱（対流が発生する場合）
-<img src="https://via.placeholder.com/1" alt="Convection diagram" />
+## 🖼 ① 下側加熱：対流セルができる
 
-### 2. 上側加熱（対流が抑制される場合）
-<img src="https://via.placeholder.com/1" alt="Conduction diagram" />
+<img src="images/lower_heating_convection.png" width="600">
 
-### 3. 水層の厚さと U値の関係
-<img src="https://via.placeholder.com/1" alt="U-value vs thickness diagram" />
+**説明：**  
+下側から加熱すると、温かい水が上昇し、冷たい水が下降して大きな渦ができます。  
+これが **自然対流** の基本です。
+
+---
+
+## 🖼 ② 上側加熱：対流が抑制される
+
+<img src="images/upper_heating_stratification.png" width="600">
+
+**説明：**  
+上側が温かい場合、温かい水は上に留まり、冷たい水は下に沈むため、  
+**対流がほとんど起きません。**  
+温度は層状に分かれます。
+
+---
+
+## 🖼 ③ 水層厚さの違い（45mm vs 90mm）による対流の比較
+
+<img src="images/thickness_45mm_vs_90mm.png" width="600">
+
+**説明：**
+
+- **45mm（薄い水層）**  
+  温められた水がすぐに上昇し、冷たい水が下降して大きな渦ができます。  
+  **対流が強く、熱がよく混ざり、U値が大きくなります。**
+
+- **90mm（厚い水層）**  
+  上昇した水が途中で冷やされやすく、渦が小さくゆっくりした流れになります。  
+  **対流が弱く、熱の混ざりが悪く、U値は小さくなります。**
+
+※ 初期の立ち上がりでは厚い水層の方が上昇速度が速く見えることがありますが、  
+　定常状態では薄い水層の方が対流が強くなります。
+
+---
+
