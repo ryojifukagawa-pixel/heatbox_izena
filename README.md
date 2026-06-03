@@ -128,6 +128,7 @@ https://colab.research.google.com/github/ryojifukagawa-pixel/heatbox_izena/blob/
 温度は層状に分かれます。
 【補足の深川コメント】図中の文字が中国簡易体になっています。
 「上側加熱」対流が抑制される
+
 上から、温かい、温度が高い、温度が中間、冷たい
 が正解です。
 
